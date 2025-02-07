@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="MERV_TOASTER_WHITE">#FFFFFF</color>
+    <color name="MERV_TOASTER_SUCCESS">#4CAF50</color>
+    <color name="MERV_TOASTER_RED">#F44336</color>
+    <color name="MERV_TOASTER_YELLOW">#FFC107</color>
+    <color name="MERV_TOASTER_BLUE">#2196F3</color>
+</resources>

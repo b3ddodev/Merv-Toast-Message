@@ -1,10 +1,11 @@
 plugins {
     alias(libs.plugins.android.library)
+    `maven-publish`
 }
 
 android {
     namespace = "com.merv.toast.library"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 24
@@ -23,8 +24,14 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+            withJavadocJar()
+        }
     }
 }
 
@@ -35,4 +42,17 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+}
+publishing {
+    publications {
+        create("release", MavenPublication::class) {
+            groupId = "com.github.b3ddodev"
+            artifactId = "Merv-Toast-Message"
+            version = "1.1.0"
+
+            afterEvaluate {
+                from(components["release"])
+            }
+        }
+    }
 }
