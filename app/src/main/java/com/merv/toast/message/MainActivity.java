@@ -24,12 +24,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 MervToastMessage.with(MainActivity.this)
-                        .setToastType(MervToastMessage.MERV_TYPE_WARNING)
+                        .setToastType(MervToastMessage.MERV__TYPE_WARNING)
                         .setText("Warning Toast Message!")
                         .setTextSize(15f)
                         .setTextColor(getColor(R.color.white))
                         .setFont(R.font.poppins)
-                        .setGravity(MervToastMessage.MERV_GRAVITY_CENTER)
+                        .setGravity(MervToastMessage.MERV__GRAVITY_CENTER)
                         .setAnimation(MervToastMessage.MERV_FADE_ANIMATION)
                         .setAnimationDuration(500)
                         .setScreenTime(2000)
