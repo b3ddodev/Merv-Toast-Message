@@ -30,12 +30,12 @@ public class MervToastMessage {
     public static final int MERV_TYPE_INFO = 0;
     public static final int MERV_TYPE_ERROR = 1;
     public static final int MERV_TYPE_SUCCESS = 2;
-    public static final int MERV__TYPE_WARNING = 3;
+    public static final int MERV_TYPE_WARNING = 3;
 
     /* Gravity position*/
-    public static final int MERV__GRAVITY_CENTER = Gravity.CENTER;
-    public static final int MERV__GRAVITY_BOTTOM = Gravity.BOTTOM;
-    public static final int MERV__GRAVITY_TOP = Gravity.TOP;
+    public static final int MERV_GRAVITY_CENTER = Gravity.CENTER;
+    public static final int MERV_GRAVITY_BOTTOM = Gravity.BOTTOM;
+    public static final int MERV_GRAVITY_TOP = Gravity.TOP;
 
     /* Animation type: */
     public static final int MERV_LEFT_ANIMATION = 0;
