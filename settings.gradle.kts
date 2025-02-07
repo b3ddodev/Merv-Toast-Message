@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Merv Toast Message"
 include(":app")
- 
+include(":Merv-Toast-Message")
