@@ -62,7 +62,7 @@ public class MervToastMessage {
     private int mIconTint = 0xFFFFFF;
 
     /* The gravity (position) of the toast */
-    private int mGravity = MERV__GRAVITY_BOTTOM;
+    private int mGravity = MERV_GRAVITY_BOTTOM;
     /* The animation effect applied to the toast */
     private int mAnimation = MERV_FADE_ANIMATION;
 
@@ -144,10 +144,10 @@ public class MervToastMessage {
         /* Set layout parameters (position, margins) */
         FrameLayout.LayoutParams mParams = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         if (mLayoutView != null) {
-            if (mGravity == MERV__GRAVITY_TOP) {
+            if (mGravity == MERV_GRAVITY_TOP) {
                 mParams.gravity = Gravity.TOP;
                 mParams.setMargins(mDefMarginStart, mLayoutView.getHeight() + mDefMarginTop, mDefMarginEnd, mDefMarginBottom);
-            } else if (mGravity == MERV__GRAVITY_BOTTOM) {
+            } else if (mGravity == MERV_GRAVITY_BOTTOM) {
                 mParams.gravity = Gravity.BOTTOM;
                 mParams.setMargins(mDefMarginStart, mDefMarginTop, mDefMarginEnd, mLayoutView.getHeight() + mDefMarginBottom);
             } else {
@@ -231,7 +231,7 @@ public class MervToastMessage {
                 this.mIconTint = ContextCompat.getColor(mContext, R.color.MERV_TOASTER_WHITE);
                 this.mBackgroundColor = ContextCompat.getColor(mContext, R.color.MERV_TOASTER_RED);
                 break;
-            case MERV__TYPE_WARNING:
+            case MERV_TYPE_WARNING:
                 this.mIcon = ContextCompat.getDrawable(mContext, R.drawable.ic_warning_triangle);
                 this.mIconTint = ContextCompat.getColor(mContext, R.color.MERV_TOASTER_WHITE);
                 this.mBackgroundColor = ContextCompat.getColor(mContext, R.color.MERV_TOASTER_YELLOW);

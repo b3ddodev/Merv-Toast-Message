@@ -8,11 +8,4 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:clickable="true"
-        android:layout_height="match_parent" />
-
 </LinearLayout>
