@@ -166,7 +166,7 @@ Set | Description
 `𝘀𝗲𝘁𝗦𝗰𝗿𝗲𝗲𝗻𝗧𝗶𝗺𝗲();` | This method sets the display duration of the toast message in milliseconds.
 `𝘀𝗲𝘁𝗔𝗻𝗶𝗺𝗮𝘁𝗶𝗼𝗻𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻();` | This method sets the duration of the animation for the toast message.
 `𝘀𝗲𝘁𝗥𝗮𝗱𝗶𝘂𝘀();` | This method sets the corner radius for the toast message, allowing you to create rounded corners.
-`setLayoutID();` | If there is an AppBar or Toolbar, this method can take that layout ID and show the toast message above or below that layout. That is, the toast message is not positioned directly at the top of the screen, but according to the layout you specify.
+`𝘀𝗲𝘁𝗟𝗮𝘆𝗼𝘂𝘁𝗜𝗗();` | If there is an AppBar or Toolbar, this method can take that layout ID and show the toast message above or below that layout. That is, the toast message is not positioned directly at the top of the screen, but according to the layout you specify.
 `𝘀𝗲𝘁𝗘𝗹𝗲𝘃𝗮𝘁𝗶𝗼𝗻();` | This method sets the elevation (shadow) of the toast message, which determines how high it appears above the content on the screen.
 `𝘀𝗲𝘁𝗠𝗮𝗿𝗴𝗶𝗻();` | This method sets the margins for the toast message. You can define the start, top, end, and bottom margins to control the spacing around the toast message.
 
