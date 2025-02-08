@@ -1,5 +1,5 @@
 ##  Merv Toast Message  
-### 🚀 Toastic takes your toast messages to the next level – stylish, fast, and customizable!
+### 🚀 Merv Toast Message takes your toast messages to the next level – stylish, fast, and customizable!
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
