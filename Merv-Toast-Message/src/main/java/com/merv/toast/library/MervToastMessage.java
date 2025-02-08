@@ -297,8 +297,8 @@ public class MervToastMessage {
         return this;
     }
 
-    public MervToastMessage mSetLayoutID(int mSetLayoutID) {
-        this.mLayoutID = mSetLayoutID;
+    public MervToastMessage setLayoutID(int setLayoutID) {
+        this.mLayoutID = setLayoutID;
         return this;
     }
 
