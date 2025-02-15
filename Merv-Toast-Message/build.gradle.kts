@@ -48,7 +48,7 @@ publishing {
         create("release", MavenPublication::class) {
             groupId = "com.github.b3ddodev"
             artifactId = "Merv-Toast-Message"
-            version = "1.1.2-0103-rls"
+            version = "1.1.3-0103-rls"
 
             afterEvaluate {
                 from(components["release"])
